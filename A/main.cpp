@@ -3,6 +3,7 @@
 #include"functionBRTree.h"
 #include"List_Huffman.h"
 #include"functionList_H.h"
+#include"List.h"
 #include<string>
 #include <windows.h>
 int main() {

@@ -1,3 +1,4 @@
+
 #include"List.h"
 #include"NodeBRTree.h"
 template <typename Data>

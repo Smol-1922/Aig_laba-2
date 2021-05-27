@@ -60,6 +60,18 @@ public:
 		}
 		size++;
 	}
+	void push(char word,unsigned int count) {
+		if (size == 0) {
+			head = new queueNode(word,count);
+			tail = head;
+		}
+		else {
+			tail->next = new queueNode(word, count);
+			tail = tail->next;
+		}
+		size++;
+	}
+
 	void pop() {
 		if (size == 0) {
 			return;
