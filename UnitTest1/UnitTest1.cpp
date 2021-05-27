@@ -6,8 +6,6 @@
 #include  "E:\Rep\Aig_laba№2\A\functionList_H.h"
 #include  "E:\Rep\Aig_laba№2\A\RBTree.h"
 #include  "E:\Rep\Aig_laba№2\A\functionBRTree.h"
-//#include  "E:\Rep\Aig_laba№2\A\functionList.h"
-//#include  "E:\Rep\Aig_laba№2\A\function.h"
 #include<string>
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
