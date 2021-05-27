@@ -85,7 +85,7 @@ namespace UnitTest1
 			Assert::IsTrue(que->at_w(1) == test);
 			
 		}
-		TEST_METHOD(TestMethod6)
+		TEST_METHOD(TestMethod5)
 		{
 			unsigned int test= 2;
 			queue* que = new queue;
@@ -94,7 +94,7 @@ namespace UnitTest1
 			que->push('d', 4);
 			Assert::IsTrue(que->at_c(0) == test);
 		}
-		TEST_METHOD(TestMethod7)
+		TEST_METHOD(TestMethod6)
 		{
 			queue* que = new queue;
 			que->push('g');
